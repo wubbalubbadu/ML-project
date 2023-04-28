@@ -1,0 +1,32 @@
+Naive Bayes:   0%|          | 0/100 [00:00<?, ?it/s]
+Results for Naive Bayes:
+Best parameters: {}
+Accuracy: 0.5547649996579326
+Precision: 0.5534244320052684
+Recall: 0.861260568793236
+F1 score: 0.6738498546657312
+Confusion matrix:
+[[1386 5425]
+ [1083 6723]]
+--------------------------------------------------
+K-NN:   0%|          | 0/100 [00:03<?, ?it/s]
+Results for K-NN:
+Best parameters: {'n_neighbors': 9}
+Accuracy: 0.5256892659232401
+Precision: 0.5517977928088288
+Recall: 0.595695618754804
+F1 score: 0.5729070412123453
+Confusion matrix:
+[[3034 3777]
+ [3156 4650]]
+--------------------------------------------------
+Decision Trees:   0%|          | 0/100 [00:24<?, ?it/s]
+Results for Decision Trees:
+Best parameters: {'criterion': 'gini', 'max_depth': 5, 'min_samples_split': 10}
+Accuracy: 0.5705001026202368
+Precision: 0.5838823012736056
+Recall: 0.6812708173200103
+F1 score: 0.6288281896653659
+Confusion matrix:
+[[3021 3790]
+ [2488 5318]]
